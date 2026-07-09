@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+Frontend/dist/
+
+# Environment / secrets
+.env
+!.env.example
+
+# Runtime output
+BackendGoogle/output/
+BackendGoogle/eval_results/
+BackendGoogle/app.log
+BackendGoogle/tests/*_output/
+
+# SAM2 model weights
+sam2-server/checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.claude/
+CLAUDE.md

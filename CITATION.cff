@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "FabDreamer"
+type: software
+license: MIT
+repository-code: "https://github.com/SPICExLAB/FabDreamer"
+preferred-citation:
+  type: conference-paper
+  title: "FabDreamer: TODO — full paper title"
+  authors:
+    - family-names: "TODO"
+      given-names: "TODO"
+  collection-title: "Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST '26)"
+  year: 2026
+  publisher:
+    name: "ACM"
