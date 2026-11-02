@@ -2,7 +2,7 @@
 
 **AI-assisted design tool for layered laser-cut art** — turn a single image (generated or uploaded) into stacked, cut-ready laser cutting layers through a three-stage human-AI workflow.
 
-> 📄 This is the research code for our **UIST 2026** paper. See [Citation](#citation) below.
+> 📄 This is the research code for our **UIST 2026** paper, [FabDreamer: Exploring the Image-to-Physical Workflow Through AI-Assisted Layered Fabrication](https://doi.org/10.1145/3830398.3830571). See [Citation](#citation) below.
 
 ## How it works
 
@@ -90,12 +90,16 @@ sam2-server/       Standalone SAM2 segmentation server (FastAPI, MPS/CUDA)
 If you build on this work, please cite our UIST 2026 paper:
 
 ```bibtex
-@inproceedings{fabdreamer2026,
-  title     = {FabDreamer: {TODO — full paper title}},
-  author    = {TODO — author list},
-  booktitle = {Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST '26)},
+@inproceedings{gao2026fabdreamer,
+  title     = {FabDreamer: Exploring the Image-to-Physical Workflow Through AI-Assisted Layered Fabrication},
+  author    = {Gao, Chenfeng and Chen, Zeya and Yang, Anjie and Ahuja, Karan and Luo, Danli},
+  booktitle = {Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology},
+  series    = {UIST '26},
+  pages     = {1--16},
   year      = {2026},
-  publisher = {ACM}
+  publisher = {ACM},
+  doi       = {10.1145/3830398.3830571},
+  url       = {https://doi.org/10.1145/3830398.3830571}
 }
 ```
 

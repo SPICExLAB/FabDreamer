@@ -6,11 +6,22 @@ license: MIT
 repository-code: "https://github.com/SPICExLAB/FabDreamer"
 preferred-citation:
   type: conference-paper
-  title: "FabDreamer: TODO — full paper title"
+  title: "FabDreamer: Exploring the Image-to-Physical Workflow Through AI-Assisted Layered Fabrication"
   authors:
-    - family-names: "TODO"
-      given-names: "TODO"
+    - family-names: "Gao"
+      given-names: "Chenfeng"
+    - family-names: "Chen"
+      given-names: "Zeya"
+    - family-names: "Yang"
+      given-names: "Anjie"
+    - family-names: "Ahuja"
+      given-names: "Karan"
+    - family-names: "Luo"
+      given-names: "Danli"
   collection-title: "Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST '26)"
+  start: 1
+  end: 16
   year: 2026
+  doi: "10.1145/3830398.3830571"
   publisher:
     name: "ACM"
